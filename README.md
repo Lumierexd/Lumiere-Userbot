@@ -1,11 +1,11 @@
  <h1 align="center"> 𝗹𝘂𝗺𝗶𝗲𝗿𝗲 𝘂𝘀𝗲𝗿𝗯𝗼𝘁 </h1>
 
-<a href="https://github.com/AyiinXd/Ayiin-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/AyiinXd/Ayiin-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/AyiinXd/Ayiin-Userbot)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/AyiinXd/Ayiin-Userbot/graphs/commit-activity)
-[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/AyiinXd/Ayiin-Userbot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/AyiinXd/Ayiin-Userbot?&logo=github)](https://github.com/AyiinXd/Ayiin-Userbot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/AyiinXd/Ayiin-Userbot?&logo=github)](https://github.com/AyiinXd/Ayiin-Userbot/stargazers)
+<a href="https://github.com/Lumierexd/Lumiere-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/Lumierexd/Lumiere-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/Lumierexd/Lumiere-Userbot)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://github.com/Lumierexd/Lumiere-Userbot/graphs/commit-activity)
+[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/Lumierexd/Lumiere-Userbot/dashboard)
+[![GitHub Forks](https://img.shields.io/github/forks/Lumierexd/Lumiere-Userbot?&logo=github)](https://github.com/Lumierexd/Lumiere-Userbot/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/Lumierexd/Lumiere-Userbot?&logo=github)](https://github.com/Lumierexd/Lumiere-Userbot/stargazers)
 
 
 <p align="center">
