@@ -1,4 +1,4 @@
- <h1 align="center"> 𝗹𝘂𝗺𝗶𝗲𝗿𝗲 𝘂𝘀𝗲𝗿𝗯𝗼𝘁 </h1>
+ <h1 align="center"> Lumiere Userbot </h1>
 
 <a href="https://github.com/Lumierexd/Lumiere-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/Lumierexd/Lumiere-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/Lumierexd/Lumiere-Userbot)
