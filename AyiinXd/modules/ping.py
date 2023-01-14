@@ -61,10 +61,10 @@ async def _(ping):
     await Ayiin.edit("⚡")
     sleep(3)
     await Ayiin.edit(
-        f"**✧ 𝙰𝚈𝙸𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧**\n\n"
-        f"✧ **𝙿𝙸𝙽𝙶𝙴𝚁 :** `%sms`\n"
-        f"✧ **𝚄𝙿𝚃𝙸𝙼𝙴 :** `{uptime}` \n"
-        f"✧ **𝙾𝚆𝙽𝙴𝚁 :** [{user.first_name}](tg://user?id={user.id})" % (duration)
+        f"**Lumiere-Userbot**\n\n"
+        f" **𝙿𝙸𝙽𝙶𝙴𝚁 :** `%sms`\n"
+        f" **𝚄𝙿𝚃𝙸𝙼𝙴 :** `{uptime}` \n"
+        f" **𝙾𝚆𝙽𝙴𝚁 :** [{user.first_name}](tg://user?id={user.id})" % (duration)
     )
 
 
@@ -86,8 +86,6 @@ async def _(ping):
     start = datetime.now()
     lping = await edit_or_reply(ping, "**★ PING ★**")
     await lping.edit("**★★ PING ★★**")
-    await lping.edit("**★★★ PING ★★★**")
-    await lping.edit("**★★★★ PING ★★★★**")
     await lping.edit("**✦҈͜͡➳ PONG!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
@@ -152,7 +150,7 @@ async def _(pong):
     await kping.edit("🥵")
     sleep(3)
     await kping.edit(
-        f"**𝙽𝙶𝙴𝙽𝚃𝙾𝚃 𝙰𝙷𝙷!! 🥵**\n**𝙺𝚄𝚃𝙰𝙽𝙶** : %sms\n**𝙱𝙾𝚃 𝚄𝙿𝚃𝙸𝙼𝙴** : {uptime}🕛" % (duration)
+        f"**𝙽𝙶𝙴𝙽𝚃𝙾𝚃 𝙰𝙷𝙷!! 🥵**\n**MEMEK** : %sms\n**𝙱𝙾𝚃 𝚄𝙿𝚃𝙸𝙼𝙴** : {uptime}🕛" % (duration)
     )
 
 
@@ -196,7 +194,7 @@ async def _(pong):
     duration = (end - start).microseconds / 9000
     await xx.edit("🥵")
     sleep(3)
-    await xx.edit("**𝙿𝙸𝙽𝙶!**\n`%sms`" % (duration))
+    await xx.edit("**SEPONG!**\n`%sms`" % (duration))
 
 
 CMD_HELP.update(
