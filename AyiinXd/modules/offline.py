@@ -17,10 +17,10 @@ from AyiinXd.ayiin import ayiin_cmd, ayiin_handler
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    "**✧ Maaf Boss {} Sedang OFF!**",
-    "**✧ Maaf Boss {} Sedang OFF Tunggu Sampai Online!**",
-    "**✧ Maaf Boss {} Sedang OFF Tunggulah Sampai Online**",
-    "**✧ Maaf Boss {} Sedang OFF!**",
+    "** Maaf Lumiere {} Sedang OFF!**",
+    "** Maaf Lumiere {} Sedang OFF Tunggu Sampai Online!**",
+    "** Maaf Lumiere {} Sedang OFF Tunggulah Sampai Online**",
+    "** Maaf Lumiere {} Sedang OFF!**",
 ]
 ISAFK = False
 USER_AFK = {}
@@ -48,9 +48,9 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"❏ **{owner} Telah OFF**\n└ **Karena:** `{string}`")
+        await afk_e.edit(f" **{owner} Telah OFF**\n└ **Karena:** `{string}`")
     else:
-        await afk_e.edit(f"**✧ {owner} Telah OFF**")
+        await afk_e.edit(f"** {owner} Telah OFF**")
     if user.last_name:
         await afk_e.client(
             UpdateProfileRequest(
@@ -62,7 +62,7 @@ async def set_afk(afk_e):
             UpdateProfileRequest(first_name=user.first_name, last_name="【 OFF 】")
         )
     if BOTLOG_CHATID:
-        await afk_e.client.send_message(BOTLOG_CHATID, f"#OFF\n**✧ {owner} Telah OFF!**")
+        await afk_e.client.send_message(BOTLOG_CHATID, f"#OFF\n** {owner} Telah OFF!**")
     ISAFK = True
     afk_time = datetime.now()
     raise StopPropagation
@@ -86,7 +86,7 @@ async def type_afk_is_not_true(notafk):
     afk_end = back_alive.replace(microsecond=0)
     if ISAFK:
         ISAFK = False
-        msg = await notafk.respond(f"**✧ {owner} Telah Kembali!**")
+        msg = await notafk.respond(f"** {owner} Telah Kembali!**")
         time.sleep(7)
         await msg.delete()
         await notafk.client(
@@ -165,7 +165,7 @@ async def mention_afk(mention):
             afk_since = f"`{seconds} Detik`"
         if mention.sender_id not in USERS:
             if AFKREASON:
-                await mention.reply(f"❏ **{owner} Sedang OFFLINE**\n├ {afk_since} **Yang Lalu**\n└ **Karena:** `{AFKREASON}`"
+                await mention.reply(f" **{owner} Sedang OFFLINE**\n├ {afk_since} **Yang Lalu**\n└ **Karena:** `{AFKREASON}`"
                                     )
             else:
                 await mention.reply(str(choice(AFKSTR.format(owner))))
@@ -175,7 +175,7 @@ async def mention_afk(mention):
                 if AFKREASON:
                     await mention.reply(
                         f"**✧ {owner} Masih OFF** {afk_since} **Yang Lalu.**\
-                            \n**✧ Karena :** `{AFKREASON}`"
+                            \n** Karena :** `{AFKREASON}`"
                     )
                 else:
                     await mention.reply(str(choice(AFKSTR)))
@@ -241,7 +241,7 @@ async def afk_on_pm(sender):
                 afk_since = f"`{seconds} Detik`"
             if sender.sender_id not in USERS:
                 if AFKREASON:
-                    await sender.reply(f"❏ **{owner} Sedang OFFLINE**\n├ {afk_since} **Yang Lalu**\n└ **Karena:** `{AFKREASON}`"
+                    await sender.reply(f" **{owner} Sedang OFFLINE**\n├ {afk_since} **Yang Lalu**\n└ **Karena:** `{AFKREASON}`"
                                        )
                 else:
                     await sender.reply(str(choice(AFKSTR)))
@@ -250,7 +250,7 @@ async def afk_on_pm(sender):
             elif apprv:
                 if USERS[sender.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await sender.reply(f"❏ **{owner} Sedang OFFLINE**\n├ {afk_since} **Yang Lalu**\n└ **Karena:** `{AFKREASON}`"
+                        await sender.reply(f" **{owner} Sedang OFFLINE**\n├ {afk_since} **Yang Lalu**\n└ **Karena:** `{AFKREASON}`"
                                            )
                     else:
                         await sender.reply(str(choice(AFKSTR)))
