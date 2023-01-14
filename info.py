@@ -19,7 +19,7 @@ from AyiinXd import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
 from AyiinXd.ayiin import edit_or_reply, ayiin_cmd
 
 
-@ayiin_cmd(pattern="whois(?: |$)(.*)")
+@ayiin_cmd(pattern="info(?: |$)(.*)")
 async def who(event):
     xx = await edit_or_reply(event, "`Mengambil Informasi Pengguna Ini...`")
     if not os.path.isdir(TEMP_DOWNLOAD_DIRECTORY):
@@ -148,8 +148,8 @@ async def fetch_info(replied_user, event):
 
 CMD_HELP.update(
     {
-        "whois": f"**Plugin : **`whois`\
-        \n\n  »  **Perintah :** `{cmd}whois` <username> Atau Balas Ke Pesan Pengguna Ketik `.whois`\
+        "info": f"**Plugin : **`info`\
+        \n\n  »  **Perintah :** `{cmd}info` <username> Atau Balas Ke Pesan Pengguna Ketik `.info`\
         \n  »  **Kegunaan : **Mendapatkan Informasi Pengguna.\
     "
     }
