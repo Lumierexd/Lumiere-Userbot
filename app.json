@@ -1,17 +1,17 @@
 {
-  "name": "⋆ 𝘼𝙮𝙞𝙞𝙣-𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ⋆",
-  "description": "[Ayiin-Userbot] Userbot Hanya Untuk Bersenang - Senang",
-  "logo": "https://telegra.ph/file/c6a0aef41355af5a018c6.jpg",
-  "keywords": ["telegram", "userbot", "Ayiin-Userbot", "modular", "python"],
-  "repository": "https://github.com/AyiinXd/Ayiin-Userbot",
+  "name": "⋆ 𝗹𝘂𝗺𝗶𝗲𝗿𝗲-𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ⋆",
+  "description": "[Lumiere-Userbot] Userbot Hanya Untuk Bersenang - Senang",
+  "logo": "https://telegra.ph/file/8f695ec5f3eb91f6afc2d.jpg",
+  "keywords": ["telegram", "userbot", "Lumiere-Userbot", "modular", "python"],
+  "repository": "https://github.com/Lumierexd/Lumiere-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
-      "description": "Dapatkan API KEY di Grup » https://t.me/AyiinXdSupport » Lalu ketik /get api atau di web my.telegram.org Masukan yg APP ID Telegram",
+      "description": "Dapatkan API KEY di » @scrapmanbot atau di web my.telegram.org Masukan yg APP ID Telegram",
       "required": true
     },
     "API_HASH": {
-      "description": "Dapatkan API Hash di Grup » https://t.me/AyiinXdSupport » Lalu ketik /get api atau di web my.telegram.org",
+      "description": "Dapatkan API Hash di Grup » @scrapmanbot atau di web my.telegram.org",
       "required": true
     },
      "STRING_SESSION": {
