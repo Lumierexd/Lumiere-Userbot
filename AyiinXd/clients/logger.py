@@ -18,12 +18,12 @@ from AyiinXd.ayiin import ayiin_version as py_ver
 from AyiinXd.ayiin import HOSTED_ON, checking
 
 MSG_ON = """
-❏ ᴀʏɪɪɴ - ᴜsᴇʀʙᴏᴛ ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ
+❏ ʟᴜᴍɪᴇʀᴇ - ᴜꜱᴇʀʙᴏᴛ ʙᴇʀʜᴀꜱɪʟ ᴅɪᴀᴋᴛɪꜰᴋᴀɴ
 ╭╼┅━━━━━╍━━━━━┅╾
-├▹ Aʏɪɪɴ Vᴇʀsɪᴏɴ - {} •[{}]•
-├▹ Usᴇʀʙᴏᴛ Vᴇʀsɪᴏɴ - {}
+├▹ ʟᴜᴍɪᴇʀᴇ ᴠᴇʀꜱɪᴏɴ - {} •[{}]•
+├▹ ᴜꜱᴇʀʙᴏᴛ ᴠᴇʀꜱɪᴏɴ - {}
 ├▹ @{}
-├▹ Kᴇᴛɪᴋ {}alive Uɴᴛᴜᴋ Mᴇɴɢᴇᴄᴇᴋ Bᴏᴛ
+├▹ ᴋᴇᴛɪᴋ {}ᴀʟɪᴠᴇ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴄᴇᴋ ʙᴏᴛ
 ╰╼┅━━━━━╍━━━━━┅╾
 """
 
@@ -36,7 +36,7 @@ async def ayiin_userbot_on():
         ban_users=True,
         delete_messages=True,
         pin_messages=True,
-        manage_call=True,
+        manage_call=True, that 
     )
     try:
         if bot and tgbot:
