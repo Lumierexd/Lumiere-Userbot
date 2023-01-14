@@ -12,7 +12,7 @@
   <img src="https://telegra.ph/file/f36894126d35b1515e537.jpg">
 </p>
 
-🗞️ Lumiere-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
+🗞️ Lumiere-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy. 🗞️
 
 Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
 Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
