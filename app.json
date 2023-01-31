@@ -7,15 +7,15 @@
   "stack": "container",
   "env": {
     "API_KEY": {
-      "description": "Dapatkan API KEY di » @scrapmanbot atau di web my.telegram.org Masukan yg APP ID Telegram",
+      "description": "Dapatkan API KEY di web my.telegram.org Masukan yg APP ID Telegram",
       "required": true
     },
     "API_HASH": {
-      "description": "Dapatkan API Hash di Grup » @scrapmanbot atau di web my.telegram.org",
+      "description": "Dapatkan API Hash di web my.telegram.org",
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di Grup » https://t.me/AyiinXdSupport » Lalu ketik /get string",
+      "description": "Dapatkan String Session di Bot @StringManRobot lalu Pilih Telethon dan ikuti langkahnya",
       "required": true
     },
     "HEROKU_APP_NAME": {
