@@ -8,7 +8,7 @@ RUN git clone -b Lumiere-Userbot https://github.com/Lumierexd/Lumiere-Userbot /h
     && chmod 777 /home/lumiereuserbot \
     && mkdir /home/lumiereuserbot/bin/
 
-COPY ./sample_config.env ./config.env* /home/ayiinuserbot/
+COPY ./sample_config.env ./config.env* /home/lumiereuserbot/
 
 WORKDIR /home/lumiereuserbot/
 
