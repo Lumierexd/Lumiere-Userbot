@@ -105,6 +105,6 @@ Follow Channel [@HisokaSupport](https://t.me/Liveshowbanget) untuk info Update b
 -  [Lumiere](https://github.com/Lumierexd) for [Lumiere-Userbot](https://github.com/Lumierexd/Lumiere-Userbot)
 
 ## License
-Licensed under [Raphielscape Public License](https://github.com/Lumierexd/Lumiere-Userbot/blob/Lumiere-Userbot/LICENSE) - Version 1.d, February 2020
+Licensed under [Raphielscape Public License](https://github.com/Lumierexd/Lumiere-Userbot/blob/Lumiere-Userbot/LICENSE) - Version 1.d, February 2020.
 
 
