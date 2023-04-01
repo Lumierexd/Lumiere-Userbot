@@ -84,7 +84,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 </details>
 
 ## Updates & Support
-Follow Channel [@HisokaSupport](https://t.me/Liveshowbanget) untuk info Update bot dan Gabung Group [@Hisoka69](https://t.me/HisokaStore) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Lumiere-Userbot.
+Follow Channel [@Lumiere](https://t.me/Gabutanlu) untuk info Update bot dan Gabung Group [@Lumieresupport](https://t.me/lumieresupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Lumiere-Userbot.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
